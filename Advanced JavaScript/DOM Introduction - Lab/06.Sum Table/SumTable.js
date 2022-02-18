@@ -1,0 +1,14 @@
+function sumTable() {
+let rowsElements = document.querySelectorAll('tr td:nth-of-type(2)')
+
+let sum = Array.from(rowsElements).reduce((a,x) =>{
+    let currentValue = Number(x.textContent) || 0;
+    return a + currentValue;
+},0);
+
+let result = document.getElementById('sum');
+result.textContent = sum;
+
+
+
+}
