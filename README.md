@@ -1,2 +1,2 @@
 # SoftUni
-<img src="Pictures/unnamed.png">
+<img src="This PC/Pictures/unnamed.png">
